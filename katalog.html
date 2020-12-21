@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/178bd791ea.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+    <title>Каталог - Веломагазин I47</title>
+</head>
+<body>
+    <div class="nofoot">
+        <nav>
+            <div class="contlogo">
+                <a href="index.html">
+                    <img src="img/logo1.png" alt="Logo">
+                </a>
+            </div>
+            <div class="contnav">
+                <ul>
+                    <li>
+                        <a href="index.html">Главная</a>
+                    </li>
+                    <li class="active">
+                        <a href="katalog.html">Каталог</a>
+                    </li>
+                    <li>
+                        <a href="aboutus.html">О магазине</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-icons">
+                <a href="shop.html"><img src="img/shop.png" alt=""></a>
+                <a href="personal.html"><img src="img/pc.png" alt=""></a>
+            </div>
+            <div>
+                <p>ПН-ПТ: <b>8:00-22:00</b></p>
+            </div>
+        </nav>
+        <main>
+            <aside>
+                <p>Производитель:</p>
+                <input type="checkbox" name="proiz" id="p1">SCOTT<br>
+                <input type="checkbox" name="proiz" id="p2">Forward<br>
+                <p>В наличии:</p>
+                <input type="radio" name="nal" id="n1">Да<br>
+                <input type="radio" name="nal" id="n2">Всё равно<br>
+                <p>Цена:</p>
+                <input type="checkbox" name="diam" id="c1">5000-6999<br>
+                <input type="checkbox" name="diam" id="c2">7000-9999<br>
+                <input type="checkbox" name="diam" id="c3">1000-12000<br>
+                <button onclick="sort()">Показать</button>
+            </aside>
+            <div class="container_card">
+                <div class="cards">
+                    <div class="card">
+                        <img src="img/pv1.jpeg" alt="Avatar" style="width:100%">
+                        <div class="card-cont">
+                            <h4><b>SCOTT Scale 990 (2019)</b></h4>
+                            <p>В наличии</p>
+                            <p>Цена: 12000 &#8381;</p>
+                            <button class="active" onclick="alert('Извините, на сайте технические неполадки. Попробуйте позже.')">Поместить в корзину</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/pv2.jpeg" alt="Avatar" style="width:100%">
+                        <div class="card-cont">
+                            <h4><b>SCOTT Scale 990 (2019)</b></h4>
+                            <p>В наличии</p>
+                            <p>Цена: 12000 &#8381;</p>
+                            <button class="active" onclick="alert('Извините, на сайте технические неполадки. Попробуйте позже.')">Поместить в корзину</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/pv5.jpeg" alt="Avatar" style="width:100%">
+                        <div class="card-cont">
+                            <h4><b>Scott Roxter 20 (2020)</b></h4>
+                            <p>Нет в наличии</p>
+                            <p>Цена: 7000 &#8381;</p>
+                            <button>Поместить в корзину</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/pv4.jpeg" alt="Avatar" style="width:100%">
+                        <div class="card-cont">
+                            <h4><b>SCOTT Scale 990 (2019)</b></h4>
+                            <p>Нет в наличии</p>
+                            <p>Цена: 12000 &#8381;</p>
+                            <button>Поместить в корзину</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/pv3.jpeg" alt="Avatar" style="width:100%">
+                        <div class="card-cont">
+                            <h4><b>Scott Roxter 16 (2020)</b></h4>
+                            <p>Нет в наличии</p>
+                            <p>Цена: 5000 &#8381;</p>
+                            <button>Поместить в корзину</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/pv6.jpeg" alt="Avatar" style="width:100%">
+                        <div class="card-cont">
+                            <h4><b>SCOTT Scale 990 (2019)</b></h4>
+                            <p>Нет в наличии</p>
+                            <p>Цена: 12000 &#8381;</p>
+                            <button>Поместить в корзину</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/fw1.jpg" alt="Avatar" style="width:100%">
+                        <div class="card-cont">
+                            <h4><b>Forward</b></h4>
+                            <p>Нет в наличии</p>
+                            <p>Цена: 12000 &#8381;</p>
+                            <button>Поместить в корзину</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/fw2.jpeg" alt="Avatar" style="width:100%">
+                        <div class="card-cont">
+                            <h4><b>Forward</b></h4>
+                            <p>Нет в наличии</p>
+                            <p>Цена: 12000 &#8381;</p>
+                            <button>Поместить в корзину</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/fw3.jpg" alt="Avatar" style="width:100%">
+                        <div class="card-cont">
+                            <h4><b>Forward</b></h4>
+                            <p>Нет в наличии</p>
+                            <p>Цена: 10000 &#8381;</p>
+                            <button>Поместить в корзину</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <footer>
+        <div class="cont">
+                <div class="footcont">
+                    <h3>Сокольники</h3>
+                    <p>Борисов &#169;2020</p>
+                </div>
+                <div class="footcont">
+                    <div>
+                        <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-geo-alt-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                        </svg>
+                        <a href="">г. Москва, м. Сокольники</a>
+                    </div>
+                    <div style="margin-top: 20px; margin-left: 5px;">
+                        <svg width="1.75em" height="1.75em" viewBox="0 0 16 16" class="bi bi-telephone-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M2.267.98a1.636 1.636 0 0 1 2.448.152l1.681 2.162c.309.396.418.913.296 1.4l-.513 2.053a.636.636 0 0 0 .167.604L8.65 9.654a.636.636 0 0 0 .604.167l2.052-.513a1.636 1.636 0 0 1 1.401.296l2.162 1.681c.777.604.849 1.753.153 2.448l-.97.97c-.693.693-1.73.998-2.697.658a17.47 17.47 0 0 1-6.571-4.144A17.47 17.47 0 0 1 .639 4.646c-.34-.967-.035-2.004.658-2.698l.97-.969z"/>
+                        </svg>
+                        <a href="tel:+491570156">+491570156</a>
+                    </div>
+                    <div style="margin-top: 15px; margin-left: 5px;">
+                        <svg width="1.75em" height="1.75em" viewBox="0 0 16 16" class="bi bi-envelope-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
+                        </svg>
+                        <a href="mailto:i.s.borisov@stud.mospolytech.ru">i.s.borisov@stud.mospolytech.ru</a>
+                    </div> 
+                </div>
+                <div class="footcont">
+                    <p>Наши соцсети:</p>
+                    <a href="https://instagram.com/ivanes047"><i class="fab fa-instagram fa-2x"></i></a>
+                    <a href="https://vk.com/ivanes_047"><i class="fab fa-vk fa-2x"></i></a>
+                    <a href="https://t.me/Ivanes047"><i class="fab fa-telegram-plane fa-2x"></i></a>
+                </div>
+        </div>    
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</html>
