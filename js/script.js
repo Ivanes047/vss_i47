@@ -1,11 +1,11 @@
 function reg() {
     $("#log").css({'z-index' : -1});
-    $("#reg").css({'z-index' : 3});
+    $("#reg").css({'z-index' : 3, 'border' : '2px solid #524f4e'});
 }
 
 function log() {
     $("#log").css({'z-index' : 3});
-    $("#reg").css({'z-index' : -1});
+    $("#reg").css({'z-index' : -1, 'border' : '2px solid white'});
 }
 
 function registration() {

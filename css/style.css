@@ -79,6 +79,23 @@ dd {
   border-left: none;
 }
 
+.list-big {
+  margin-left: 20px;
+  margin-top: 0px;
+}
+
+.list-big dt, .list-big dd {
+  height: 3em;
+}
+
+.list-big dt {
+  width: 30%;
+}
+
+.list-big dd {
+  width: 70%;
+}
+
 .contlogo {
   display: inline-block;
 }
@@ -342,7 +359,7 @@ button.money:hover {
   height: 400px;
   width: 400px;
   border-radius: 20px;
-  border: 2px solid #524f4e;
+  border: 2px solid rgba(240, 240, 240, 0.9);
 }
 
 #reg p {
